@@ -1,0 +1,49 @@
+{
+  "_note": "Sanitised end-to-end trace. Persona rule-set, prompt, and exact reply text are not published. The trace structure is real.",
+  "trace_id": "<redacted>",
+  "stages": [
+    {
+      "stage": "ingest",
+      "duration_ms": "<small>",
+      "result": "new_comment_queued"
+    },
+    {
+      "stage": "classify",
+      "duration_ms": "<small>",
+      "result": "dismissive_troll / high confidence"
+    },
+    {
+      "stage": "route",
+      "duration_ms": "<negligible>",
+      "result": "hakimah / elevated / kesian"
+    },
+    {
+      "stage": "generate_reply",
+      "duration_ms": "<small>",
+      "result": "candidate_reply_produced",
+      "validations": ["voice_check_passed", "length_check_passed", "refusal_check_passed"]
+    },
+    {
+      "stage": "throttle_wait",
+      "duration_ms": "<jittered>",
+      "result": "ready_to_post"
+    },
+    {
+      "stage": "post",
+      "duration_ms": "<small>",
+      "result": "published",
+      "comment_id_returned": "<redacted>"
+    },
+    {
+      "stage": "verify",
+      "duration_ms": "<small>",
+      "result": "visible"
+    },
+    {
+      "stage": "persist",
+      "duration_ms": "<negligible>",
+      "result": "state_updated_atomically"
+    }
+  ],
+  "total_latency_human_perceived": "in the single-digit minutes"
+}

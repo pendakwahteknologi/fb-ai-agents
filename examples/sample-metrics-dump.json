@@ -1,0 +1,31 @@
+{
+  "_note": "Sanitised metrics snapshot. Exact counts and thresholds are not published.",
+  "service": {
+    "uptime_hours": "<continuous>",
+    "polling_heartbeat": "healthy",
+    "outbound_error_rate": "low"
+  },
+  "agents": {
+    "adila": {
+      "page_health": "live",
+      "replies_last_hour": "<within cap>",
+      "reactions_last_hour": "<within cap>",
+      "refusals_last_hour": "<small>",
+      "shadow_hide_rate": "background"
+    },
+    "hakimah": {
+      "page_health": "live",
+      "replies_last_hour": "<within cap>",
+      "reactions_last_hour": "<within cap>",
+      "refusals_last_hour": "<small>",
+      "shadow_hide_rate": "background"
+    },
+    "aqilah": {
+      "page_health": "page_in_preparation"
+    },
+    "hidayah": {
+      "page_health": "page_in_preparation"
+    }
+  },
+  "alerts_active": []
+}

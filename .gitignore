@@ -1,0 +1,31 @@
+# Secrets — never commit
+.env
+.env.*
+*.token
+*.tokens
+secrets/
+
+# State — never commit
+data/
+*.state.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local
+local/
+tmp/

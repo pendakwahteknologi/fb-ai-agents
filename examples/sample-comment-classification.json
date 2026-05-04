@@ -1,0 +1,26 @@
+{
+  "_note": "Sanitised production output. Comment text and IDs are illustrative. Classifier prompt and weights are not published.",
+  "input": {
+    "comment_id": "<redacted>",
+    "post_id": "<redacted>",
+    "author_id": "<redacted>",
+    "text": "senang je tu, i pun boleh buat",
+    "language": "ms",
+    "is_reply": false,
+    "parent_post_age_minutes": 47
+  },
+  "classifier_output": {
+    "category": "dismissive_troll",
+    "confidence": "high",
+    "mention_target": null,
+    "language": "ms",
+    "injection_detected": false,
+    "refusal_required": false
+  },
+  "router_decision": {
+    "selected_agent": "hakimah",
+    "priority": "elevated",
+    "mode_hint": "kesian",
+    "rationale_tag": "dismissive_pattern_match"
+  }
+}
