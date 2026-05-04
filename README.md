@@ -1,6 +1,6 @@
-# fb-ai-agents
+# Penjaga — A Doctrine for Running AI Agents on Facebook Without Getting Banned
 
-> **Multi-persona AI agents that operate Facebook Pages at production scale, in Bahasa Melayu, without getting banned.**
+> **Four personas. Four Pages. One source Page they protect. Bahasa Melayu, production-grade, ban-resistant by design.**
 
 Built and operated by **[Pendakwah Teknologi](https://www.facebook.com/pendakwahteknologi)** — a Malaysian technology studio.
 
