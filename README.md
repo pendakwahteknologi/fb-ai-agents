@@ -2,7 +2,7 @@
 
 > **Four personas. Four Pages. One source Page they protect. Bahasa Melayu, production-grade, ban-resistant by design.**
 
-Built and operated by **[Pendakwah Teknologi](https://www.facebook.com/pendakwahteknologi)** — a Malaysian technology studio.
+Built and operated by **[Pendakwah Teknologi](https://www.facebook.com/pendakwahteknologi)**
 
 ---
 
