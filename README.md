@@ -1,4 +1,4 @@
-# Penjaga — A Doctrine for Running AI Agents on Facebook Without Getting Banned
+# Running AI Agents on Facebook Without Getting Banned
 
 > **Four personas. Four Pages. One source Page they protect. Bahasa Melayu, production-grade, ban-resistant by design.**
 
